@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta charset="utf-8">
+	 <title>Visão-otica</title>
+	 <link href="css/bootstrap.css" rel="stylesheet">
+	 <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	 <script src="js/ie-emulation-modes-warning.js"></script>
+	 <link rel="icon" href="imagens\Logo4.jpg">
+
+	 <style type="text/css">
+	 	body{
+	 		
+	 	}
+	 	.container{
+	 		line-height: 1;
+	 	}
+	 	label{
+	 		font-size: 12pt;
+	 	}
+		
+	 	h2{
+	 		
+	 	}
+	 	#logo{
+	 		margin: auto;
+	 		padding: auto;
+	 		background-color: black;
+	 		color: white;
+	 		width: 300px;
+	 		height: 70px;
+	 		border-radius: 50px;
+	 	}
+	 	#a{
+	 		margin: auto;
+	 		padding: auto;
+	 		font-size: 12pt;
+	 		display: inline;
+	 		text-align: center;
+	 		}
+	 		a:hover{
+	 			text-decoration: none;
+	 			text-color: black;
+	 		}
+	 		
+	 </style>
+
+</head>
+<body>
+	<header>
+		<div style="width: 100%; height: px;">
+			
+		</div>
+	</header>
+	<div class="container">
+		<label>
+			<div id="logo"> 
+				<center>			
+					<h1>Visão-otica</h1>			
+					<h4>A melhor opção para sua visão!</h4>
+				</center>
+			</div>
+		</label>
+		<hr>
+		<div style="float: right;">
+			<form action="inserir.php" method="POST">
+				<label>
+					Loja:
+					<input class="form-control" type="text" name="Loja" style="width: 150px;" placeholder=" Ex: Loja 2...">
+				</label>
+				<label>
+					Código do clienti:
+					<input class="form-control" type="text" name="Codigo" style="width: 160px;">
+				</label><br>
+				<label>
+					Vendedora:
+					<input class="form-control" type="text" name="Vendedora" style="width: 150px;" placeholder=" Ex: Edilma...">
+				</label>
+				<label>
+					Data da compra:
+					<input class="form-control" type="date" name="Data_compra" style="width: 160px;">
+				</label>
+			</form>
+		</div>
+		<div class="container">
+				<center>
+				<h2>Cadastro de clientes</h2>
+				<hr>
+				</center>
+		</div>		
+		<div class="container">
+			<form action="inserir.php" method="POST">
+				<label>Cliente</label><br>
+				<label>Nome:</label>
+					<input class="form-control" type="text" name="Cliente" style="width: 340px;display: inline;" placeholder=" Nome...">							
+				<label>Data de nascimento:</label>
+					<input class="form-control" type="date" name="Data_nascimento" style="width: 160px;display: inline;">			
+				<label>Filiação:</label>
+					<input class="form-control" type="text" name="Filiacao" style="width: 340px;display: inline;" placeholder=" Filiação..."><br>						
+				<br><label>Endereço:</label><br>
+				<label>Rua:</label>
+					<input class="form-control" type="text" name="Endereco" style="width: 400px;display: inline;" placeholder=" rua, av ... ">				
+				<label>Nº :</label>
+					<input class="form-control" type="text" name="Numero" style="width: 100px;display: inline;" placeholder=" Ex: 8A...">							
+				<label>Cep:</label>
+					<input class="form-control" type="text" name="Cep" style="width: 150px;display: inline;" placeholder=" Ex: 50.761-440... ">					
+				<label>Bairro:</label>
+					<input class="form-control" type="text" name="Bairro" style="width: 250px;display: inline;" placeholder=" Ex: Jardim Jordão..."><br>			
+				<br><label>Ponto de referencia:</label>
+					<input class="form-control" type="text" name=" P_de_referencia" style="width: 250px;display: inline;" placeholder=" Ex: Ladeira do petinho...">		
+				<label>Cidade:</label>
+					<input class="form-control" type="text" name="Cidade" style="width: 250px;display: inline;" placeholder=" Cidade...">					
+				<label>Estado:</label>
+					<input class="form-control" type="text" name="Estado" style="width: 260px;display: inline;" placeholder=" Estado..."><br>						
+				<br><label>Contatos:</label><br>
+				<label>Telefone fixo:</label>
+					<input class="form-control" type="text" name="Fixo" style="width: 150px;display: inline;" placeholder=" Ex: 3445-1123...">						
+				<label>Celular:</label>
+					<input class="form-control" type="text" name="Movel" style="width: 150px;display: inline;" placeholder=" Ex: (81) 9.95289191...">				
+				<label>E-mail:</label>
+					<input class="form-control" type="email" name="email" style="width: 450px;display: inline;" placeholder="Ex: gustavo@gmail.com..."><br>			
+				<br><label>Redes sociais:</label><br>
+				<label>Instagram:</label>
+					<input class="form-control" type="text" name="Instagram" style="width: 450px;display: inline;" placeholder=" Ex: joséjoão1000...">					
+				<label>Facebook:</label>
+					<input class="form-control" type="text" name="Facebook" style="width: 450px;display: inline;" placeholder=" Ex: josé.joão1000..."><br>				
+				<br><label>Documentos do cliente:</label><br>
+				<label>RG:</label>
+					<input class="form-control" type="text" name="RG" style="width: 150px;display: inline;" placeholder=" Ex: 5508658...">						
+				<label>Orgão expedidor:</label>
+					<input class="form-control" type="text" name="Orgao_expedidor" style="width: 120px;display: inline;" placeholder=" Ex: SDSPE...">					
+				<label>Data de expedição:</label>
+					<input class="form-control" type="date" name="Data_de_expedicao" style="width: 160px;display: inline;">								
+				<label>CPF:</label>
+					<input class="form-control" type="text" name="CPF" style="width: 150px;display: inline;" placeholder=" Ex: 02587566602..."><br><br>			
+				<label>Profissão:</label>
+					<input class="form-control" type="text" name="Profissao" style="width: 250px; display: inline;" placeholder=" Ex: Soldador...">						
+				<label>Empresa onde trabalha:</label>
+					<input class="form-control" type="text" name="trabalha" style="width: 250px; display: inline;" placeholder=" Ex: Vitarela...">						
+				<label>Função:</label>
+					<input class="form-control" type="text" name="Funcao" style="width: 250px; display: inline;" placeholder=" Ex: Auxiliar de estoque...">
+				<center><br>				
+				<label>Informações adcionais:</label><br>
+				<textarea  name="Informacoes_adcionais" style="width: 100%; height: 60px;">					
+				</textarea>
+				</center>
+			</form>
+			<center><br>
+			<button class="btn btn-primary">
+				<span class="glyphicon glyphicon-send"></span>
+					Salvar
+			</button>
+			</center>
+		</div>
+	</div>
+	<div class="container">
+	<footer>
+	
+		<a href="" class="btn btn-primary">Facebook</a>
+		<a href="" class="btn btn-danger">Instagram</a>
+
+	</footer>
+	</div>
+</body>
+</html>

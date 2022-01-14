@@ -1,0 +1,32 @@
+create table Cliente(
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+Loja VARCHAR(10) NOT NULL,
+Vendedora VARCHAR(10) NOT NULL,
+DataCompra VARCHAR(10) NOT NULL,
+Cliente VARCHAR(250) NOT NULL,
+DataNascimento VARCHAR(10) NOT NULL,
+Filiacao VARCHAR(250) NOT NULL,
+Endereco VARCHAR(250) NOT NULL,
+Numero VARCHAR(10) NOT NULL,
+Cep VARCHAR(10) NOT NULL,
+'Bairro' VARCHAR(15) NOT NULL,
+'PdeReferencia' VARCHAR(250) NOT NULL,
+Cidade VARCHAR(150) NOT NULL,
+Estado VARCHAR(150) NOT NULL,
+Fixo VARCHAR(15) NOT NULL,
+Movel VARCHAR(15) NOT NUL,
+email VARCHAR(250) NOT NULL,
+Instagram VARCHAR(250) NOT NULL,
+Facebook VARCHAR(250) NOT NULL,
+RG VARCHAR(15) NOT NLL,
+OrgaoExpedidor VARCHAR(10) NOT NULL,
+DataDeExpedicao VARCHAR(10) NOT NULL,
+CPF VARCHAR(20) NOT NULL,
+Profissao VARCHAR(50) NOT NULL,
+trabalha VARCHAR(100) NOT NULL,
+Funcao VARCHAR(100) NOT NULL,
+InformacoesAdcionais VARCHAR(150) NOT NULL 
+);
+
+
+Lembrar de acrescentar mais caracteres ao campo InformacoesAdcionais.
